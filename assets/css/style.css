@@ -642,7 +642,37 @@ section {
 
 .values .box:hover img {
   transform: scale(1);
+  
 }
+
+.values .box ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Center the text within the ul */
+}
+
+.values .box ul a {
+  display: inline-block;
+  border: 2px solid #012970;
+  /* background: #012970; */
+  padding: 8px 20px;
+  margin-left: 0px;
+  border-radius: 20px;
+  color: #012970;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+/* .values .box ul a{
+
+  background: #012970;
+  padding: 8px 20px;
+  margin-left: 0px;
+  border-radius: 4px;
+  color: #fff;
+} */
 
 
 
